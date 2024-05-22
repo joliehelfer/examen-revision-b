@@ -6,3 +6,16 @@
   background: #f1faee;
   font-size: 14px;
 }
+
+@media (min-width: 767px) {
+  .navigation {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1040px) {
+  .navigation {
+    flex-direction: row;
+    gap: 30px;
+  }
+}
