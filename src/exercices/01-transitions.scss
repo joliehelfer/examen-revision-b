@@ -33,6 +33,13 @@
   color: #54819e;
   text-align: center;
   transition: color 0.5s;
+
+  &:hover {
+    color: #1d3557;
+    .article-title {
+      transform: scale(1.1);
+    }
+  }
 }
 
 .article-title {
